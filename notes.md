@@ -13,5 +13,7 @@ Git basic:
     - initializes the current folder as a git respository
 • git status
     - current status of the folder
-• git add <file>...
+• git add <file(s)/folder(s)>
     - add file to the staging area (git add . -> adds all the files from current directory)
+• git commit -m "message"
+    - commit the changes to the git repository
