@@ -17,3 +17,9 @@ Git basic:
     - add file to the staging area (git add . -> adds all the files from current directory)
 • git commit -m "message"
     - commit the changes to the git repository
+• git log --oneline
+    - logs commits
+• git checkout <commit><file>
+    - checkout the file from an older commit
+• git reset
+    - reset the stagging area to the last commit
