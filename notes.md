@@ -8,7 +8,7 @@ JS Full Stack:
 - NodeJS
 - MongoDB
 
-Git basic:
+Git basics:
 • git init
     - initializes the current folder as a git respository
 • git status
@@ -23,3 +23,9 @@ Git basic:
     - checkout the file from an older commit
 • git reset
     - reset the stagging area to the last commit
+• git remote add origin <url>
+    - add remote inline repo
+• git push -u origin master
+    - push local git repo to the origin to the master branch
+• git clone <url>
+    - clone git repo to local machine

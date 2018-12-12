@@ -1,0 +1,14 @@
+{
+  "name": "coursera_angular",
+  "version": "1.0.0",
+  "description": "Coursera course",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "damorkas",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
