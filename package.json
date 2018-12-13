@@ -6,9 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damorkas/coursera_angular.git"
+  },
   "author": "damorkas",
   "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.4.0"
-  }
+  "devDependencies": {}
 }
