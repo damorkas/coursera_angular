@@ -29,3 +29,10 @@ Git basics:
     - push local git repo to the origin to the master branch
 • git clone <url>
     - clone git repo to local machine
+
+Angular Architecture:
+    • Modular
+    • Component-based with templated
+    • Services
+
+Decorator - function that modify JS class (eg. @NgModule)
