@@ -62,3 +62,16 @@ Binding targets -> left side of binding declaration:
 Target properties must be explicitly marked as Input or Output properties using decorators:
 @Input dish: Dish;
 @Output deleteDish = new EventEmitter<Dish>();
+
+
+Design Pattern -> reusable solution to commonly occurring problems. (Gang of four)
+
+MVC
+MVVM
+
+
+Angular Services:
+- Dependency Injection
+- Promises
+- Reactive JavScript
+
