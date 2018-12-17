@@ -36,3 +36,29 @@ Angular Architecture:
     • Services
 
 Decorator - function that modify JS class (eg. @NgModule)
+
+Component.ts -> Metadata / properties / methods ; property binding / event binding
+Template.html
+
+Data Binding (Template -> DOM ; Component -> Property)
+
+One-way from data source to view target bindings:
+{{expression}} : {{dish.name}} ; Interpolation
+[target]="expression" : [dish]="selectedDish" ; Property Attribute
+bind-target="expression" : bind-dish="selectedDish"
+
+One-way from view target to data source bindings:
+(target)="statement" : (click)="onSelected(dish)" ; Event
+on-target="statement" : on-click="onSelect(dish)"
+
+Two-way
+[(target)]="expression" : [(ngModel)]="dish.name"
+bindon-target="expression"
+
+[()] -> banana in a box
+
+Binding targets -> left side of binding declaration: 
+[..], (..), [(..)]
+Target properties must be explicitly marked as Input or Output properties using decorators:
+@Input dish: Dish;
+@Output deleteDish = new EventEmitter<Dish>();
