@@ -75,3 +75,12 @@ Angular Services:
 - Promises
 - Reactive JavScript
 
+
+SPA
+
+Challanges in SPA:
+- search engine optimization
+- partitioning th responsibility between client and server
+- maintaining history
+- analytics
+- speeding up the initial page load
