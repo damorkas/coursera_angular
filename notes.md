@@ -88,3 +88,9 @@ Challanges in SPA:
 
 Template-driven forms
 Reactive forms
+
+Control States
+.pristine
+.dirty
+.valid
+.invalid 
