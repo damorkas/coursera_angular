@@ -84,3 +84,7 @@ Challanges in SPA:
 - maintaining history
 - analytics
 - speeding up the initial page load
+
+
+Template-driven forms
+Reactive forms
