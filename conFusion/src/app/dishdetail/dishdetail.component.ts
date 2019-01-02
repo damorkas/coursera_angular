@@ -17,6 +17,7 @@ export class DishdetailComponent implements OnInit {
   dishIds: string[];
   prev: string;
   next: string;
+  errMess: string;
 
   comment: Comment;
   commentForm: FormGroup;
@@ -59,7 +60,7 @@ export class DishdetailComponent implements OnInit {
       .subscribe(dish => {
         this.dish = dish;
         this.setPrevNext(dish.id);
-      });
+      }, errmess => this.errMess = <any>errmess);
   }
 
   createForm(): void {
