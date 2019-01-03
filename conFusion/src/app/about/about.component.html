@@ -71,8 +71,13 @@
         </p>
       </mat-list-item>
     </mat-list>
-    <div [hidden]="leaders">
-      <mat-spinner></mat-spinner> <h4>Loading . . . Please Wait</h4>
+    <div [hidden]="leaders || errMess">
+      <mat-spinner></mat-spinner>
+      <h4>Loading . . . Please Wait</h4>
+    </div>
+    <div fxFlex *ngIf="errMess">
+      <h2>error</h2>
+      <h4>{{errMess}}</h4>
     </div>
   </div>
 </div>
